@@ -347,6 +347,7 @@ class MainActivity : Activity() {
         txtStatus.setTextColor(Color.parseColor("#FFDDDDEE"))
         txtStatus.setPadding(0, dp(10), 0, 0)
         root.addView(txtStatus)
+        root.addView(buildCatBitFooter(this))
 
         return scroll
     }
